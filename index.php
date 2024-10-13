@@ -25,7 +25,7 @@ include_once(__DIR__ . '/partials/header.php');
     </section>
     <!-- hero end -->
     <section class="about-section pt-120 pb-120 bg_img"
-             data-background="https://businessinsiderfinance.com/assets/images/frontend/about/60b60b6574cd91622543205.jpg">
+             data-background="<?=$site_url?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6">
@@ -40,7 +40,7 @@ include_once(__DIR__ . '/partials/header.php');
                             any possible risks and offering a high-quality service, allowing us to automate and simplify
                             the relations between the investors and the trustees. We work towards increasing your profit
                             margin by profitable investment. We look forward to you being part of our community. </p>
-                        <a href="about.html" class="cmn-btn mt-4">More Info</a>
+                        <a href="<?=$about_url?>" class="cmn-btn mt-4">More Info</a>
                     </div>
                 </div>
             </div>
@@ -55,15 +55,14 @@ include_once(__DIR__ . '/partials/header.php');
                     <div class="section-header">
                         <h2 class="section-title"><span class="font-weight-normal">Investment</span> <b
                                     class="base--color">Plans</b></h2>
-                        <p>To make a solid investment, you have to know where you are investing. Find a plan which is
-                            best for you.</p>
+                        <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
                     </div>
                 </div>
             </div><!-- row end -->
             <div class="row mb-none-30 justify-content-center">
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                     <div class="package-card text-center bg_img"
-                         data-background="https://businessinsiderfinance.com/assets/templates/bit_gold//images/bg/bg-4.png">
+                         data-background="<?=$site_url?>assets/templates/bit_gold//images/bg/bg-4.png">
                         <h4 class="package-card__title base--color mb-2">Plan 1</h4>
 
                         <ul class="package-card__features mt-4">
