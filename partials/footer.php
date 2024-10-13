@@ -6,8 +6,7 @@
                 <div class="col-lg-12 text-center">
                     <a href="<?=$site_url?>"><img src="<?=$site_logo?>" alt="image"></a>
                     <ul class="footer-short-menu d-flex flex-wrap justify-content-center mt-3">
-                        <li><a href="links/privacy-amp-policy/180.html">Privacy &amp; Policy</a></li>
-                        <li><a href="links/terms-amp-condition/181.html">Terms &amp; Condition</a></li>
+                        <li><a href="<?=$terms_url?>">Terms &amp; Condition</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,17 +58,7 @@
         });
     }
 </script>
-<script>
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src="https://embed.tawk.to/61b0105380b2296cfdd09ec6/1fmbrvj72";
-        s1.charset="UTF-8";
-        s1.setAttribute("crossorigin","*");
-        s0.parentNode.insertBefore(s1,s0);
-    })();
-</script>
+<?php include_once (__DIR__.'/../include/support_plugin.php'); ?>
 <script>
     (function ($) {
         "use strict";
