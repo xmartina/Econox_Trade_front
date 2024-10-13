@@ -21,8 +21,8 @@
     <meta itemprop="image" content="<?=$site_url?>assets/images/seo/66120ef4a2abf1712459508.png">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Businessinsiderfinance - The way to the future of investing online with safety, security and satisfaction ensured.">
-    <meta property="og:description" content="Businessinsiderfinance - The way to the future of investing online with safety, security and satisfaction ensured.">
+    <meta property="og:title" content="<?=$site_name?> - The way to the future of investing online with safety, security and satisfaction ensured.">
+    <meta property="og:description" content="<?=$site_name?> - The way to the future of investing online with safety, security and satisfaction ensured.">
     <meta property="og:image" content="<?=$site_url?>assets/images/seo/66120ef4a2abf1712459508.png"/>
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
