@@ -163,7 +163,7 @@ include_once(__DIR__ . '/../../partials/breadcrumb.php');
             </div>
             <div class="modal-footer">
                 <a href="<?=$login_url?>" type="button"
-                   class=" btn-md btn-outline-warning w-100 text-center">At first sign in your account</a>
+                   class="cmn-btn btn-md btn-outline-warning w-100 text-center">At first sign in your account</a>
             </div>
         </div>
     </div>
