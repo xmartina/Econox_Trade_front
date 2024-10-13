@@ -1,15 +1,12 @@
-<!-- meta tags and other links -->
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from businessinsiderfinance.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2024 10:08:16 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="mkiKUwVovjTapx3EFa3bN64QqnM0ESfvr5E9GpIY">
-    <title>Businessinsiderfinance - Home</title>
-    <meta name="description" content="Businessinsiderfinance - The way to the future of investing online with safety, security and satisfaction ensured.">
+    <title><?=$page_name.' | '.$site_name?></title>
+    <meta name="description" content="<?=$site_name?> - The way to the future of investing online with safety, security and satisfaction ensured.">
     <meta name="keywords" content="bitcoin,investment">
     <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
 
@@ -19,7 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Businessinsiderfinance - Home">
 
-    <meta itemprop="name" content="Businessinsiderfinance - Home">
+    <meta itemprop="name" content="<?=$page_name.' | '.$site_name?>">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="assets/images/seo/66120ef4a2abf1712459508.png">
 
