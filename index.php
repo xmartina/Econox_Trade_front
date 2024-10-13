@@ -1,12 +1,12 @@
 <?php
-$page_name = 'Home | ';
+$page_name = 'Home';
 include_once(__DIR__ . '/functions/home_function.php');
 include_once(__DIR__ . '/partials/header.php');
 ?>
 
     <!-- hero start -->
     <section class="hero bg_img"
-             data-background="https://businessinsiderfinance.com/assets/images/frontend/banner/5fce371bad7db1607350043.jpg">
+             data-background="<?=$site_url?>assets/images/frontend/banner/5fce371bad7db1607350043.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -17,7 +17,7 @@ include_once(__DIR__ . '/partials/header.php');
                             Company. We provide you with the most necessary features that will make your experience
                             better. Not only we guarantee the fastest and the most exciting returns on your investments,
                             but we also guarantee the security of your investment.</p>
-                        <a href="register.html" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
+                        <a href="<?=$signup_url?>" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -191,8 +191,7 @@ include_once(__DIR__ . '/partials/header.php');
     </section>
 
 
-    <section class="pt-120 pb-120 overlay--radial bg_img"
-             data-background="assets/images/frontend/why_choose/5fce3cf364ca21607351539.jpg">
+    <section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/frontend/why_choose/5fce3cf364ca21607351539.jpg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
