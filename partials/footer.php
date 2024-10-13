@@ -1,5 +1,5 @@
 <!-- footer section start -->
-<footer class="footer bg_img" data-background="assets/images/frontend/footer/5fce39681ce6b1607350632.jpg">
+<footer class="footer bg_img" data-background="<?=$site_url?>assets/images/frontend/footer/5fce39681ce6b1607350632.jpg">
     <div class="footer__top">
         <div class="container">
             <div class="row justify-content-center">
@@ -35,19 +35,19 @@
 </div> <!-- page-wrapper end -->
 
 <!-- jQuery library -->
-<script src="assets/templates/bit_gold/js/vendor/jquery-3.5.1.min.js"></script>
+<script src="<?=$site_url?>assets/templates/bit_gold/js/vendor/jquery-3.5.1.min.js"></script>
 <!-- bootstrap js -->
-<script src="assets/templates/bit_gold/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="<?=$site_url?>assets/templates/bit_gold/js/vendor/bootstrap.bundle.min.js"></script>
 
 <!-- slick slider js -->
-<script src="assets/templates/bit_gold/js/vendor/slick.min.js"></script>
-<script src="assets/templates/bit_gold/js/vendor/wow.min.js"></script>
+<script src="<?=$site_url?>assets/templates/bit_gold/js/vendor/slick.min.js"></script>
+<script src="<?=$site_url?>assets/templates/bit_gold/js/vendor/wow.min.js"></script>
 <!-- dashboard custom js -->
-<script src="assets/templates/bit_gold/js/app.js"></script>
+<script src="<?=$site_url?>assets/templates/bit_gold/js/app.js"></script>
 
 
-<link rel="stylesheet" href="assets/templates/bit_gold/css/iziToast.min.css">
-<script src="assets/templates/bit_gold/js/iziToast.min.js"></script>
+<link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/iziToast.min.css">
+<script src="<?=$site_url?>assets/templates/bit_gold/js/iziToast.min.js"></script>
 
 
 <script>
@@ -211,12 +211,6 @@
         });
     })();
 </script>
-
-
-</body>
-
-<!-- Mirrored from businessinsiderfinance.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2024 10:08:41 GMT -->
-</html>
 
 </body>
 </html> 

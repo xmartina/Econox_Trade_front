@@ -80,11 +80,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav main-menu ml-auto">
-                            <li> <a href="index.html">Home</a></li>
-                            <li><a href="plan.html">Plan</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li> <a href="<?=$site_url?>">Home</a></li>
+                            <li><a href="<?=$plans_url?>">Plan</a></li>
+                            <li><a href="<?=$about_url?>">About</a></li>
+                            <li><a href="<?=$terms_url?>">Terms</a></li>
+                            <li><a href="<?=$contact_url?>">Contact</a></li>
                             <br>
                             <div id="ytWidget"></div><script src="../translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&amp;pageLang=en&amp;widgetTheme=dark&amp;autoMode=true" type="text/javascript"></script>
                         </ul>
