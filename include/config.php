@@ -6,6 +6,9 @@ $login_url = 'https://account.'.$base_link.'/?a=login';
 $signup_url = 'https://account.'.$base_link.'/?a=signup';
 $site_logo = $site_url . 'assets/images/logoIcon/logo.png';
 $site_favicon = $site_url . 'assets/images/logoIcon/favicon.png';
+$site_address = 'Our Address';
+$site_email = 'contact@'.$base_link;
+$site_phone = '+44 849 3432';
 
 //page links
 $about_url = $site_url.'pages/about';
