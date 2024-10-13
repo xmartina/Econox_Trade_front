@@ -18,12 +18,12 @@
 
     <meta itemprop="name" content="<?=$page_name.' | '.$site_name?>">
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="assets/images/seo/66120ef4a2abf1712459508.png">
+    <meta itemprop="image" content="<?=$site_url?>assets/images/seo/66120ef4a2abf1712459508.png">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Businessinsiderfinance - The way to the future of investing online with safety, security and satisfaction ensured.">
     <meta property="og:description" content="Businessinsiderfinance - The way to the future of investing online with safety, security and satisfaction ensured.">
-    <meta property="og:image" content="assets/images/seo/66120ef4a2abf1712459508.png"/>
+    <meta property="og:image" content="<?=$site_url?>assets/images/seo/66120ef4a2abf1712459508.png"/>
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="315" />
@@ -31,19 +31,19 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <!-- bootstrap 4  -->
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/vendor/bootstrap.min.css">
     <!-- fontawesome 5  -->
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/all.min.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/all.min.css">
     <!-- line-awesome webfont -->
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/line-awesome.min.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/vendor/animate.min.css">
     <!-- slick slider css -->
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/vendor/slick.css">
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/vendor/dots.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/vendor/slick.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/vendor/dots.css">
     <!-- dashdoard main css -->
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/main.css">
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/custom.css">
-    <link rel="stylesheet" href="assets/templates/bit_gold/css/color9bce.css?color=CCA354&amp;secondColor=000000">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/main.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/custom.css">
+    <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/color9bce.css?color=CCA354&amp;secondColor=000000">
 </head>
 <body>
 
