@@ -1,5 +1,5 @@
 <?php
-$page_name = 'About Us';
+$page_name = 'Contact Us';
 include_once(__DIR__ . '/../../functions/home_function.php');
 include_once(__DIR__ . '/../../partials/header.php');
 include_once(__DIR__ . '/../../partials/breadcrumb.php');
