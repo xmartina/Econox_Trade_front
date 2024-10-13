@@ -8,10 +8,10 @@
     <title><?=$page_name.' | '.$site_name?></title>
     <meta name="description" content="<?=$site_name?> - The way to the future of investing online with safety, security and satisfaction ensured.">
     <meta name="keywords" content="bitcoin,investment">
-    <link rel="shortcut icon" href="assets/images/logoIcon/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=$site_favicon?>" type="image/x-icon">
 
 
-    <link rel="apple-touch-icon" href="assets/images/logoIcon/logo.png">
+    <link rel="apple-touch-icon" href="<?=$site_favicon?>">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Businessinsiderfinance - Home">
@@ -71,9 +71,9 @@
         <div class="header__bottom">
             <div class="container">
                 <nav class="navbar navbar-expand-xl p-0 align-items-center">
-                    <a class="site-logo site-title" href="index.html"><img src="assets/images/logoIcon/logo.png" alt="site-logo"></a>
+                    <a class="site-logo site-title" href="<?=$site_url?>"><img src="<?=$site_logo?>" alt="site-logo"></a>
                     <ul class="account-menu responsive-account-menu ml-3">
-                        <li class="icon"><a href="login.html"><i class="las la-user"></i></a></li>
+                        <li class="icon"><a href="<?=$login_url?>"><i class="las la-user"></i></a></li>
                     </ul>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu-toggle"></span>

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
-                    <a href="index.html"><img src="assets/images/logoIcon/logo.png" alt="image"></a>
+                    <a href="<?=$site_url?>"><img src="<?=$site_logo?>" alt="image"></a>
                     <ul class="footer-short-menu d-flex flex-wrap justify-content-center mt-3">
                         <li><a href="links/privacy-amp-policy/180.html">Privacy &amp; Policy</a></li>
                         <li><a href="links/terms-amp-condition/181.html">Terms &amp; Condition</a></li>
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-md-left text-center">
-                    <p><p>© 2024 <a href="index.html" class="base--color">Businessinsiderfinance</a>. All rights reserved</p></p>
+                    <p><p>© 2024 <a href="<?=$site_url?>" class="base--color"><?=$site_name?></a>. All rights reserved</p></p>
                 </div>
                 <div class="col-md-6">
                     <ul class="social-link-list d-flex flex-wrap justify-content-md-end justify-content-center">
