@@ -6,7 +6,7 @@
                 <h2 class="page-title"><?=$page_name?></h2>
                 <ul class="page-breadcrumb">
                     <li><a href="<?=$site_url?>">Home</a></li>
-                    <li>About</li>
+                    <li><?=$page_name?></li>
                 </ul>
             </div>
         </div>
