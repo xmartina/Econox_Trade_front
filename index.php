@@ -6,7 +6,7 @@ include_once(__DIR__ . '/partials/header.php');
 
     <!-- hero start -->
     <section class="hero bg_img"
-             data-background="<?=$site_url?>assets/images/frontend/banner/5fce371bad7db1607350043.jpg">
+             data-background="<?= $site_url ?>assets/images/frontend/banner/5fce371bad7db1607350043.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -17,7 +17,7 @@ include_once(__DIR__ . '/partials/header.php');
                             Company. We provide you with the most necessary features that will make your experience
                             better. Not only we guarantee the fastest and the most exciting returns on your investments,
                             but we also guarantee the security of your investment.</p>
-                        <a href="<?=$signup_url?>" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
+                        <a href="<?= $signup_url ?>" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ include_once(__DIR__ . '/partials/header.php');
     </section>
     <!-- hero end -->
     <section class="about-section pt-120 pb-120 bg_img"
-             data-background="<?=$site_url?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
+             data-background="<?= $site_url ?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6">
@@ -40,7 +40,7 @@ include_once(__DIR__ . '/partials/header.php');
                             any possible risks and offering a high-quality service, allowing us to automate and simplify
                             the relations between the investors and the trustees. We work towards increasing your profit
                             margin by profitable investment. We look forward to you being part of our community. </p>
-                        <a href="<?=$about_url?>" class="cmn-btn mt-4">More Info</a>
+                        <a href="<?= $about_url ?>" class="cmn-btn mt-4">More Info</a>
                     </div>
                 </div>
             </div>
@@ -55,14 +55,15 @@ include_once(__DIR__ . '/partials/header.php');
                     <div class="section-header">
                         <h2 class="section-title"><span class="font-weight-normal">Investment</span> <b
                                     class="base--color">Plans</b></h2>
-                        <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
+                        <p>To make a solid investment, you have to know where you are investing. Find a plan which is
+                            best for you.</p>
                     </div>
                 </div>
             </div><!-- row end -->
             <div class="row mb-none-30 justify-content-center">
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                     <div class="package-card text-center bg_img"
-                         data-background="<?=$site_url?>assets/templates/bit_gold//images/bg/bg-4.png">
+                         data-background="<?= $site_url ?>assets/templates/bit_gold//images/bg/bg-4.png">
                         <h4 class="package-card__title base--color mb-2">Plan 1</h4>
 
                         <ul class="package-card__features mt-4">
@@ -190,13 +191,14 @@ include_once(__DIR__ . '/partials/header.php');
     </section>
 
 
-    <section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/frontend/why_choose/5fce3cf364ca21607351539.jpg">
+    <section class="pt-120 pb-120 overlay--radial bg_img"
+             data-background="assets/images/frontend/why_choose/5fce3cf364ca21607351539.jpg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <div class="section-header">
                         <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b
-                                    class="base--color"><?=$site_name?></b></h2>
+                                    class="base--color"><?= $site_name ?></b></h2>
                         <p>Our goal is to provide our investors with a reliable source of high income, while minimizing
                             any possible risks and offering a high-quality service.</p>
                     </div>
@@ -356,9 +358,11 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <div class="section-header">
-                        <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color"><?=$site_name?></b>
+                        <h2 class="section-title"><span class="font-weight-normal">How</span> <b
+                                    class="base--color"><?= $site_name ?></b>
                             <span class="font-weight-normal">Works</span></h2>
-                        <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
+                        <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you
+                            profit in your wallet automatically.</p>
                     </div>
                 </div>
             </div><!-- row end -->
@@ -401,8 +405,10 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <div class="section-header">
-                        <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
-                        <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
+                        <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b
+                                    class="base--color">Questions</b></h2>
+                        <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query
+                            that is not answered here, Please contact us.</p>
                     </div>
                 </div>
             </div><!-- row end -->
@@ -412,7 +418,9 @@ include_once(__DIR__ . '/partials/header.php');
                         <div class="card">
                             <div class="card-header" id="heading0">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse0" aria-expanded="false"
+                                            aria-controls="collapse0">
                                         <i class="las la-question-circle"></i>
                                         <span>When can I deposit/withdraw from my Investment account?</span>
                                     </button>
@@ -435,14 +443,17 @@ include_once(__DIR__ . '/partials/header.php');
                         <div class="card">
                             <div class="card-header" id="heading1">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
+                                            aria-controls="collapse1">
                                         <i class="las la-question-circle"></i>
                                         <span>How do I check my account balance?</span>
                                     </button>
                                 </h2>
                             </div>
 
-                            <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample" style="">
+                            <div id="collapse1" class="collapse" aria-labelledby="heading1"
+                                 data-parent="#accordionExample" style="">
                                 <div class="card-body">You can see this anytime on
                                     your accounts dashboard.
                                 </div>
@@ -528,7 +539,8 @@ include_once(__DIR__ . '/partials/header.php');
                     <div class="section-header">
                         <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b
                                     class="base--color">About Us</b></h2>
-                        <p>We are doing really good at this market and here are the words we loved to get from a few of our users.</p>
+                        <p>We are doing really good at this market and here are the words we loved to get from a few of
+                            our users.</p>
                     </div>
                 </div>
             </div><!-- row end -->
@@ -538,7 +550,7 @@ include_once(__DIR__ . '/partials/header.php');
                         <div class="single-slide">
                             <div class="testimonial-card">
                                 <div class="testimonial-card__content">
-                                    <p><?=$site_name?> is the best among all, I has found the legit
+                                    <p><?= $site_name ?> is the best among all, I has found the legit
                                         investment platform, 100% successful withdrawal 100% fastest payment 24/7 live
                                         support, this is really good.</p>
                                 </div>
@@ -724,7 +736,8 @@ include_once(__DIR__ . '/partials/header.php');
                         <div class="single-slide">
                             <div class="testimonial-card">
                                 <div class="testimonial-card__content">
-                                    <p>All the information about the company is legit and I has verified everything, we keep moving forward in <?=$site_name?></p>
+                                    <p>All the information about the company is legit and I has verified everything, we
+                                        keep moving forward in <?= $site_name ?></p>
                                 </div>
                                 <div class="testimonial-card__client">
                                     <div class="thumb">
@@ -761,7 +774,7 @@ include_once(__DIR__ . '/partials/header.php');
                                     <p>Il sito funziona senza problemi, i pagamenti vengono effettuati ogni giorno. Ho
                                         investito più di ventimila dollari in questo sito altamente redditizio e sto
                                         ottenendo un buon interesse da parte loro. Raccomando il loro sito web
-                                        <?=$site_name?> è il migliore che abbia mai visto.</p>
+                                        <?= $site_name ?> è il migliore che abbia mai visto.</p>
                                 </div>
                                 <div class="testimonial-card__client">
                                     <div class="thumb">
@@ -796,7 +809,7 @@ include_once(__DIR__ . '/partials/header.php');
                         <div class="single-slide">
                             <div class="testimonial-card">
                                 <div class="testimonial-card__content">
-                                    <p>I have been working on the <?=$site_name?> platform for over 6 years.
+                                    <p>I have been working on the <?= $site_name ?> platform for over 6 years.
                                         I am very grateful to all the management that on the Internet I can find a
                                         really reliable place to get passive income. I invested both large and small
                                         sums, withdrawing funds goes smoothly. I highly recommend this.</p>
@@ -826,7 +839,8 @@ include_once(__DIR__ . '/partials/header.php');
                     <div class="section-header">
                         <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b
                                     class="base--color">Team Members</b></h2>
-                        <p>We have a great team including developers, designers, and Traders. The Team always working hard to give you the maximum profit.</p>
+                        <p>We have a great team including developers, designers, and Traders. The Team always working
+                            hard to give you the maximum profit.</p>
                     </div>
                 </div>
             </div><!-- row end -->
@@ -936,7 +950,8 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="row justify-content-center mb-none-30">
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
-                        <div class="investor-card__thumb bg_img background-position-y-top" data-background="placeholder-image/800x800.jpg"></div>
+                        <div class="investor-card__thumb bg_img background-position-y-top"
+                             data-background="placeholder-image/800x800.jpg"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Giuseppe82</h6>
                             <span class="amount f-size-14">Investment - $4253844.00</span>
@@ -1006,7 +1021,7 @@ include_once(__DIR__ . '/partials/header.php');
                         <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make
                             Fast Money. Not only we guarantee the fastest and the most exciting returns on your
                             investments, but we also guarantee the security of your investment.</p>
-                        <a href="<?=$signup_url?>" class="cmn-btn mt-4">Join Us</a>
+                        <a href="<?= $signup_url ?>" class="cmn-btn mt-4">Join Us</a>
                     </div>
                 </div>
             </div>
@@ -1017,7 +1032,8 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <div class="section-header">
-                        <h2 class="section-title"><span class="font-weight-normal">Payment We</span> <b class="base--color">Accept</b></h2>
+                        <h2 class="section-title"><span class="font-weight-normal">Payment We</span> <b
+                                    class="base--color">Accept</b></h2>
                         <p>We accept all major cryptocurrencies and fiat payment methods to make your investment process
                             easier with our platform.</p>
                     </div>
@@ -1198,13 +1214,10 @@ include_once(__DIR__ . '/partials/header.php');
                         <span aria-hidden="true">&times;</span>
                     </a>
                 </div>
-                <form action="https://businessinsiderfinance.com/user/plans" method="post" class="register">
-                    <input type="hidden" name="_token" value="mkiKUwVovjTapx3EFa3bN64QqnM0ESfvr5E9GpIY">
-                    <div class="modal-footer">
-                        <a href="login.html" type="button"
-                           class="btn btn-success custom-success w-100">At first sign in your account</a>
-                    </div>
-                </form>
+                <div class="modal-footer">
+                    <a href="<?= $login_url ?>" type="button" class="btn btn-outline-warning custom-success w-100">At
+                        first sign in your account</a>
+                </div>
             </div>
         </div>
     </div>
