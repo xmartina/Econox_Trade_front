@@ -63,7 +63,7 @@ include_once(__DIR__ . '/partials/header.php');
         <div class="row p-0 h-100 m-0">
             <div class="col-lg-6 p-0 m-0" style="max-height: 650px;">
                 <div class="bg-dark h-100 align-items-center p-3">
-                    <div class="row h-100">
+                    <div class="row">
                         <div class="col-6 rounded">
                             <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="">
                         </div>
@@ -71,7 +71,7 @@ include_once(__DIR__ . '/partials/header.php');
                             <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2015.jpeg" alt="">
                         </div>
                     </div>
-                    <div class="row h-100">
+                    <div class="row">
                         <div class="col-6 rounded">
                             <img src="<?= $site_url ?>assets/images/home/cert_01.jpeg" alt="">
                         </div>
