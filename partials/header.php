@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/main.css">
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/custom.css">
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/color9bce.css?color=CCA354&amp;secondColor=000000">
+    <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=true" type="text/javascript"></script>
 </head>
 <body>
 
@@ -88,8 +89,6 @@
                             <br>
                             <div id="ytWidget"></div>
 
-                            <!-- Yandex Translate Widget Script -->
-                            <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=true" type="text/javascript"></script>
 
                         </ul>
                         <div class="nav-right">
