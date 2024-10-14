@@ -21,7 +21,7 @@ include_once(__DIR__ . '/partials/header.php');
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="rounded bg-dark p-3 shadow-sm">
+                    <div class="rounded bg-dark p-3 shadow-sm" style="height: 450px;">
                         <!-- TradingView Widget BEGIN -->
                         <div class="tradingview-widget-container">
                             <div class="tradingview-widget-container__widget"></div>
