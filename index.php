@@ -63,12 +63,18 @@ include_once(__DIR__ . '/partials/header.php');
         <div class="row p-0 h-100 m-0">
             <div class="col-lg-6 p-0 m-0" style="max-height: 650px;">
                 <div class="bg-dark h-100 p-3">
-                    <div class="row gy-4 gx-4 align-items-center">
+                    <div class="row gy-4 gx-4 h-100 align-items-center">
                         <div class="col-6 rounded">
                             <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="">
                         </div>
                         <div class="col-6 rounded">
                             <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2015.jpeg" alt="">
+                        </div>
+                        <div class="col-6 rounded">
+                            <img src="<?= $site_url ?>assets/images/home/cert_01.jpeg" alt="">
+                        </div>
+                        <div class="col-6 rounded">
+                            <img src="<?= $site_url ?>assets/images/home/trusted_rectangle_2023.jpeg" alt="">
                         </div>
                     </div>
                 </div>
