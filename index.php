@@ -61,7 +61,7 @@ include_once(__DIR__ . '/partials/header.php');
     <section class="about-section bg_img"
              data-background="<?= $site_url ?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
         <div class="row p-0 h-100 m-0">
-            <div class="col-lg-6 p-0 h-100 m-0" style="height: 600px">
+            <div class="col-lg-6 p-0 m-0" style="height: inherit">
                 <div class="bg-dark h-100 p-3">
                     <div class="row gy-4 gx-4">
                         <div class="col-6 rounded">
