@@ -20,6 +20,41 @@ include_once(__DIR__ . '/partials/header.php');
                         <a href="<?= $signup_url ?>" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
                     </div>
                 </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <div class="rounded shadow-sm">
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                                {
+                                    "colorTheme": "dark",
+                                    "dateRange": "12M",
+                                    "exchange": "US",
+                                    "showChart": true,
+                                    "locale": "en",
+                                    "largeChartUrl": "",
+                                    "isTransparent": false,
+                                    "showSymbolLogo": false,
+                                    "showFloatingTooltip": false,
+                                    "width": "400",
+                                    "height": "550",
+                                    "plotLineColorGrowing": "rgba(66, 66, 66, 1)",
+                                    "plotLineColorFalling": "rgba(66, 66, 66, 1)",
+                                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                                    "scaleFontColor": "rgba(209, 212, 220, 1)",
+                                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+                                }
+                            </script>
+                        </div>
+                        <!-- TradingView Widget END -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
