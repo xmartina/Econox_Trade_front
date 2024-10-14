@@ -44,7 +44,44 @@
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/main.css">
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/custom.css">
     <link rel="stylesheet" href="<?=$site_url?>assets/templates/bit_gold/css/color9bce.css?color=CCA354&amp;secondColor=000000">
-    <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=true" type="text/javascript"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        /* Dark mode for Google Translate dropdown */
+        #google_translate_element select {
+            background-color: #333;   /* Dark background */
+            color: #fff;              /* White text */
+            border: 1px solid #555;   /* Dark border */
+        }
+
+        /* Style the dropdown options */
+        .goog-te-combo {
+            background-color: #333;   /* Dark background */
+            color: #fff;              /* White text */
+        }
+
+        /* Style the translator frame */
+        iframe.goog-te-banner-frame {
+            background-color: #333 !important;
+        }
+
+        /* Hide Google Translate default badge */
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -87,9 +124,7 @@
                             <li><a href="<?=$terms_url?>">Terms</a></li>
                             <li><a href="<?=$contact_url?>">Contact</a></li>
                             <br>
-                            <div id="ytWidget"></div>
-
-
+                            <div id="google_translate_element"></div>
                         </ul>
                         <div class="nav-right">
                             <ul class="account-menu ml-3">
