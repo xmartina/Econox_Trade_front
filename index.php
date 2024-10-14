@@ -61,22 +61,25 @@ include_once(__DIR__ . '/partials/header.php');
     <section class="about-section bg_img"
              data-background="<?= $site_url ?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
         <div class="row p-0 h-100 m-0">
-            <div class="col-lg-6 p-0 m-0" style="max-height: 650px;">
-                <div class="bg-dark h-100 flex-row d-flex align-items-center p-3">
-                    <div class="mb-2 row">
-                        <div class="col-6 rounded">
-                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="">
+            <div class="col-lg-6 p-0 m-0" style="max-height: 650px; overflow: hidden;">
+                <div class="bg-dark h-100 d-flex flex-column justify-content-center p-3">
+                    <!-- First Row of Images -->
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="Certificate 2013" class="img-fluid rounded">
                         </div>
-                        <div class="col-6 rounded">
-                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2015.jpeg" alt="">
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2015.jpeg" alt="Certificate 2015" class="img-fluid rounded">
                         </div>
                     </div>
+
+                    <!-- Second Row of Images -->
                     <div class="row">
-                        <div class="col-6 rounded">
-                            <img src="<?= $site_url ?>assets/images/home/cert_01.jpeg" alt="">
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/cert_01.jpeg" alt="Certificate 01" class="img-fluid rounded">
                         </div>
-                        <div class="col-6 rounded">
-                            <img src="<?= $site_url ?>assets/images/home/trusted_rectangle_2023.jpeg" alt="">
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/trusted_rectangle_2023.jpeg" alt="Trusted 2023" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
