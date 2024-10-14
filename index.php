@@ -63,7 +63,7 @@ include_once(__DIR__ . '/partials/header.php');
         <div class="row p-0 h-100 m-0">
             <div class="col-lg-6 p-0 m-0" style="max-height: 650px;">
                 <div class="bg-dark h-100 d-flex align-items-center p-3">
-                    <div class="mb-2">
+                    <div class="mb-2 row">
                         <div class="col-6 rounded">
                             <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="">
                         </div>
