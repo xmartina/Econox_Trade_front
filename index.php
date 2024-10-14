@@ -60,21 +60,37 @@ include_once(__DIR__ . '/partials/header.php');
     <!-- hero end -->
     <section class="about-section pt-120 pb-120 bg_img"
              data-background="<?= $site_url ?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="about-content">
-                        <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b
-                                    class="base--color">Us</b></h2>
-                        <p>We are an international financial company engaged in investment activities, which are related
-                            to trading on financial markets and cryptocurrency exchanges performed by qualified
-                            professional traders.<br/>
-                            <br/>
-                            Our goal is to provide our investors with a reliable source of high income, while minimizing
-                            any possible risks and offering a high-quality service, allowing us to automate and simplify
-                            the relations between the investors and the trustees. We work towards increasing your profit
-                            margin by profitable investment. We look forward to you being part of our community. </p>
-                        <a href="<?= $about_url ?>" class="cmn-btn mt-4">More Info</a>
+        <div class="row p-0 m-0">
+            <div class="col-lg-6 m-0">
+                <div class="bg-dark p-3">
+                    <div class="row gy-4 gx-4">
+                        <div class="col-6 rounded">
+                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2013.jpeg" alt="">
+                        </div>
+                        <div class="col-6 rounded">
+                            <img src="<?= $site_url ?>assets/images/home/cert_rectangle_2015.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="about-content">
+                                <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b
+                                            class="base--color">Us</b></h2>
+                                <p>We are an international financial company engaged in investment activities, which are related
+                                    to trading on financial markets and cryptocurrency exchanges performed by qualified
+                                    professional traders.<br/>
+                                    <br/>
+                                    Our goal is to provide our investors with a reliable source of high income, while minimizing
+                                    any possible risks and offering a high-quality service, allowing us to automate and simplify
+                                    the relations between the investors and the trustees. We work towards increasing your profit
+                                    margin by profitable investment. We look forward to you being part of our community. </p>
+                                <a href="<?= $about_url ?>" class="cmn-btn mt-4">More Info</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
