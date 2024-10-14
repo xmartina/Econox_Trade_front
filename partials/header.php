@@ -87,7 +87,7 @@
                             <li><a href="<?=$contact_url?>">Contact</a></li>
                             <br>
                             <div id="ytWidget"></div>
-                            <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&amp;widgetTheme=dark&amp;autoMode=true" type="text/javascript"></script>
+                            <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=true" type="text/javascript"></script>
                         </ul>
                         <div class="nav-right">
                             <ul class="account-menu ml-3">

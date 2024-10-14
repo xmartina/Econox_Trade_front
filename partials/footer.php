@@ -200,6 +200,16 @@
         });
     })();
 </script>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        new Yandex.Translate.Widget({
+            containerId: 'ytWidget',
+            pageLang: 'en',
+            widgetTheme: 'dark',
+            autoMode: true
+        });
+    });
+</script>
 
 </body>
 </html> 
