@@ -76,7 +76,7 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="col-lg-6 m-0 pt-120 pb-120">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
                             <div class="about-content">
                                 <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b
                                             class="base--color">Us</b></h2>
