@@ -58,10 +58,10 @@ include_once(__DIR__ . '/partials/header.php');
         </div>
     </section>
     <!-- hero end -->
-    <section class="about-section pt-120 pb-120 bg_img"
+    <section class="about-section bg_img"
              data-background="<?= $site_url ?>assets/images/frontend/about/60b60b6574cd91622543205.jpg">
-        <div class="row p-0 m-0">
-            <div class="col-lg-6 m-0">
+        <div class="row p-0 h-100 m-0">
+            <div class="col-lg-6 h-100 m-0">
                 <div class="bg-dark p-3">
                     <div class="row gy-4 gx-4">
                         <div class="col-6 rounded">
@@ -73,7 +73,7 @@ include_once(__DIR__ . '/partials/header.php');
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 m-0">
+            <div class="col-lg-6 m-0 pt-120 pb-120">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-6">
