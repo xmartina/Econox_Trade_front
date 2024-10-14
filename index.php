@@ -20,9 +20,8 @@ include_once(__DIR__ . '/partials/header.php');
                         <a href="<?= $signup_url ?>" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
                     </div>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <div class="rounded shadow-sm">
+                <div class="col-lg-7">
+                    <div class="rounded bg-dark p-3 shadow-sm">
                         <!-- TradingView Widget BEGIN -->
                         <div class="tradingview-widget-container">
                             <div class="tradingview-widget-container__widget"></div>
