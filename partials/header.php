@@ -86,11 +86,12 @@
                             <li><a href="<?=$terms_url?>">Terms</a></li>
                             <li><a href="<?=$contact_url?>">Contact</a></li>
                             <br>
-                            <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&amp;pageLang=en&amp;widgetTheme=dark&amp;autoMode=true" type="text/javascript"></script>
+                            <div id="ytWidget"></div>
+                            <script src="https://translate.yandex.net/website-widget/v1/widget5d1f.js?widgetId=ytWidget&amp;widgetTheme=dark&amp;autoMode=true" type="text/javascript"></script>
                         </ul>
                         <div class="nav-right">
                             <ul class="account-menu ml-3">
-                                <li class="icon"><a href="login.html"><i class="las la-user"></i></a></li>
+                                <li class="icon"><a href="<?=$login_url?>"><i class="las la-user"></i></a></li>
                             </ul>
 
                         </div>
