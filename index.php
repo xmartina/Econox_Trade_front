@@ -122,31 +122,6 @@ include_once(__DIR__ . '/partials/header.php');
                 </div>
             </div><!-- row end -->
             <div class="row mb-none-30 justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-                    <div class="package-card text-center bg_img"
-                         data-background="<?= $site_url ?>assets/templates/bit_gold//images/bg/bg-4.png">
-                        <h4 class="package-card__title base--color mb-2">Plan 1</h4>
-
-                        <ul class="package-card__features mt-4">
-                            <li>Return 1%</li>
-
-                            <li>
-                                Every Day
-                            </li>
-                            <li>For 7 Day</li>
-                            <li>
-                                Total 7%
-
-                                + <span class="badge badge-success">Capital</span>
-                            </li>
-                        </ul>
-                        <div class="package-card__range mt-5 base--color"> $100 - $1000000
-                        </div>
-                        <a href="javascript:void(0)" data-toggle="modal" data-target="#depoModal"
-                           data-resource="{&quot;id&quot;:5,&quot;name&quot;:&quot;Plan 1&quot;,&quot;minimum&quot;:&quot;100&quot;,&quot;maximum&quot;:&quot;1000000&quot;,&quot;fixed_amount&quot;:&quot;0&quot;,&quot;interest&quot;:&quot;1&quot;,&quot;interest_status&quot;:1,&quot;times&quot;:&quot;24&quot;,&quot;status&quot;:1,&quot;featured&quot;:1,&quot;capital_back_status&quot;:1,&quot;lifetime_status&quot;:0,&quot;repeat_time&quot;:&quot;7&quot;,&quot;created_at&quot;:&quot;2024-04-06T07:41:12.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-04-06T07:41:12.000000Z&quot;}"
-                           class="cmn-btn btn-md mt-4 investButton">Invest Now</a>
-                    </div><!-- package-card end -->
-                </div>
                 <?php
                 include_once (__DIR__ . '/partials/plan_template.php');
                 ?>
