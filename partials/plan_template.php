@@ -2,9 +2,10 @@
 // Assuming you have already connected to the database using $conn
 
 // Fetch data from hm2_plans and join with hm2_types based on parent_id = id
-$query = "SELECT p.id as plan_id, p.name as plan_name, p.min_deposit, p.max_deposit, p.percent, t.name as type_name, t.q_days 
-          FROM hm2_plans p
-          JOIN hm2_types t ON p.parent = t.id";
+$query = "SELECT hm2_plans.id, hm2_plans.name, hm2_plans.min_deposit, hm2_plans.max_deposit, hm2_plans.percent, hm2_types.q_days 
+        FROM hm2_plans 
+        INNER JOIN hm2_types ON hm2_plans.parent = hm2_types.id 
+        ORDER BY hm2_plans.percent ASC";
 
 $result = mysqli_query($conn, $query);
 
