@@ -899,7 +899,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/investor_avatar.png"></div>
+                             data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Giuseppe82</h6>
                             <span class="amount f-size-14">Investment - $4253844.00</span>
