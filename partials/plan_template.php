@@ -1,6 +1,6 @@
 <?php
 // Query to fetch the plans
-$query = "SELECT * FROM hm2_plans";
+$query = "SELECT * FROM hm2_plans ORDER BY percent ASC";
 $result = mysqli_query($conn, $query);
 
 // Check if there are any results
