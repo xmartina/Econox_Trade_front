@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
         $total_return = ($percent * $q_days); // Example calculation for total return
 
         echo '
-        <div class="col-lg-3 mb-30">
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
             <div class="package-card text-center bg_img"
                  data-background="assets/templates/bit_gold/images/bg/bg-4.png">
                 <h4 class="package-card__title base--color mb-2">' . $plan_name . '</h4>
