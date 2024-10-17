@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
         <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
             <div class="package-card text-center bg_img"
                  data-background="assets/templates/bit_gold/images/bg/bg-4.png">
-                <h4 class="package-card__title base--color mb-2">' . $plan_name . '</h4>
+                <h4 class="package-card__title base--color mb-2 p-3 rounded bg-dark">' . $plan_name . '</h4>
                 <ul class="package-card__features mt-4">
                     <li>Return ' . $percent . '%</li>
                     <li>For ' . $q_days . ' Days</li>
