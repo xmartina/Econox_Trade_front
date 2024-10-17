@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
                     <li>Every Day</li>
                     <li>For ' . $q_days . ' Days</li>
                     <li>
-                        Total ' . $total_return . '%
+                        Total ' . $percent . '%
                         + <span class="badge badge-success">Capital</span>
                     </li>
                 </ul>
