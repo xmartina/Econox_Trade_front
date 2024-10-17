@@ -899,7 +899,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Giuseppe82</h6>
                             <span class="amount f-size-14">Investment - $4253844.00</span>
@@ -909,7 +909,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Francesco55</h6>
                             <span class="amount f-size-14">Investment - $924290.00</span>
@@ -919,7 +919,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Albertone99</h6>
                             <span class="amount f-size-14">Investment - $874740.00</span>
@@ -929,7 +929,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Almir54</h6>
                             <span class="amount f-size-14">Investment - $773378.00</span>
@@ -939,7 +939,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Robby74</h6>
                             <span class="amount f-size-14">Investment - $754000.00</span>
@@ -949,7 +949,7 @@ include_once(__DIR__ . '/partials/header.php');
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
                         <div class="investor-card__thumb bg_img background-position-y-top"
-                             data-background="placeholder-image/800x800.jpg"></div>
+                             data-background="placeholder-image/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Malpeli746</h6>
                             <span class="amount f-size-14">Investment - $643900.00</span>
