@@ -25,7 +25,6 @@ if ($result->num_rows > 0) {
                 <h4 class="package-card__title base--color mb-2">' . $plan_name . '</h4>
                 <ul class="package-card__features mt-4">
                     <li>Return ' . $percent . '%</li>
-                    <li>Every Day</li>
                     <li>For ' . $q_days . ' Days</li>
                     <li>
                         Total ' . $percent . '%
