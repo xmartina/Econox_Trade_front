@@ -74,12 +74,21 @@ include_once(__DIR__ . '/partials/header.php');
                     </div>
 
                     <!-- Second Row of Images -->
-                    <div class="row">
+                    <div class="row mb-3">
                         <div class="col-6">
                             <img src="<?= $site_url ?>assets/images/home/cert_01.jpeg" alt="Certificate 01" class="img-fluid rounded">
                         </div>
                         <div class="col-6">
                             <img src="<?= $site_url ?>assets/images/home/trusted_rectangle_2023.jpeg" alt="Trusted 2023" class="img-fluid rounded">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/badge_us_sign.jpeg" alt="Certificate 01" class="img-fluid rounded">
+                        </div>
+                        <div class="col-6">
+                            <img src="<?= $site_url ?>assets/images/home/ceo_signing.jpeg" alt="Trusted 2023" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
