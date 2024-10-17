@@ -1,7 +1,7 @@
 <?php
 $site_name = 'EconoXtrade Investment';
-$site_url = 'https://econoxtrade.online/';
-$base_link = 'econoxtrade.online';
+$site_url = 'https://econoxt.online/';
+$base_link = 'econoxt.online';
 $login_url = 'https://account.'.$base_link.'/?a=login';
 $signup_url = 'https://account.'.$base_link.'/?a=signup';
 $site_logo = $site_url . 'assets/images/logoIcon/logo.png';
