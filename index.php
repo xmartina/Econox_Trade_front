@@ -898,7 +898,7 @@ include_once(__DIR__ . '/partials/header.php');
             <div class="row justify-content-center mb-none-30">
                 <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
                     <div class="investor-card border-radius--5">
-                        <div class="investor-card__thumb bg_img background-position-y-top"
+                        <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                              data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
                         <div class="investor-card__content">
                             <h6 class="name">Giuseppe82</h6>
