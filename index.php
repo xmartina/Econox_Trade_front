@@ -360,7 +360,7 @@ include_once(__DIR__ . '/partials/header.php');
                     </div>
                 </div>
             </div><!-- row end -->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="p-4">
                         <img class="rounded shadow-sm" src="<?=$site_url?>assets/images/front_added/affirmation_cert.png" alt="<?=$site_name?>">
