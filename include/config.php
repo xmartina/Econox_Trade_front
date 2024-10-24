@@ -2,8 +2,8 @@
 include_once (__DIR__ . '/db_connect.php');
 
 $site_name = 'EconoXtrade Investment';
-$site_url = 'https://econoxt.online/';
-$base_link = 'econoxt.online';
+$site_url = 'https://econxt.online/';
+$base_link = 'econxt.online';
 $login_url = 'https://account.'.$base_link.'/?a=login';
 $signup_url = 'https://account.'.$base_link.'/?a=signup';
 $site_logo = $site_url . 'assets/images/logoIcon/logo.png';
