@@ -908,7 +908,7 @@ include_once(__DIR__ . '/partials/header.php');
                 </div>
                 <div class="col-lg-6">
                     <div class="row justify-content-center mb-none-30">
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
@@ -918,7 +918,7 @@ include_once(__DIR__ . '/partials/header.php');
                                 </div>
                             </div><!-- investor-card end -->
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
@@ -928,7 +928,7 @@ include_once(__DIR__ . '/partials/header.php');
                                 </div>
                             </div><!-- investor-card end -->
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
@@ -938,7 +938,7 @@ include_once(__DIR__ . '/partials/header.php');
                                 </div>
                             </div><!-- investor-card end -->
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
@@ -948,7 +948,7 @@ include_once(__DIR__ . '/partials/header.php');
                                 </div>
                             </div><!-- investor-card end -->
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
@@ -958,7 +958,7 @@ include_once(__DIR__ . '/partials/header.php');
                                 </div>
                             </div><!-- investor-card end -->
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 mb-30">
                             <div class="investor-card border-radius--5">
                                 <div class="investor-card__thumb bg-light rounded-circle bg_img background-position-y-top"
                                      data-background="<?= $site_url ?>assets/images/home/investor_avatar.png"></div>
