@@ -900,10 +900,10 @@ include_once(__DIR__ . '/partials/header.php');
                     </div>
                 </div>
             </div><!-- row end -->
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="p-5">
-                        <img class="rounded shadow-sm" src="<?=$site_url?>assets/images/front_added/cac.png" alt="<?=$site_name?>">
+                        <img class="rounded shadow-sm" style="height: 550px;" src="<?=$site_url?>assets/images/front_added/cac.png" alt="<?=$site_name?>">
                     </div>
                 </div>
                 <div class="col-lg-6">
