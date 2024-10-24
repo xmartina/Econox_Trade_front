@@ -24,7 +24,7 @@
                         <li><a href="https://www.twitter.com/"><i class="lab la-twitter"></i></a></li>
                         <li><a href="https://www.pinterest.com/"><i class="lab la-pinterest-p"></i></a></li>
                         <li><a href="https://www.linkedin.com/"><i class="lab la-linkedin-in"></i></a></li>
-			<li><a href="https://t.me/EconoXtradeGroup"><i class="lab la-telegram-t"></i></a></li>
+			<li><a href="https://t.me/EconoXtradeGroup"><i class="lab la-telegram"></i></a></li>
                     </ul>
                 </div>
             </div>
